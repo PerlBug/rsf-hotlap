@@ -115,7 +115,9 @@ export default function Stage() {
                 <td style={tableCellStyle}>{ranking.Car}</td>
                 <td style={tableCellStyle}>{ranking["Chkpoint 1 Time"]}</td>
                 <td style={tableCellStyle}>{ranking["Chkpoint 2 Time"]}</td>
-                <td style={tableCellStyle}>{ranking["Finish Time"]}</td>
+                <td style={tableCellStyle}>
+                  <b>{ranking["Finish Time"]}</b>
+                </td>
                 <td style={tableCellStyle}>{ranking["Diff. Prev"]}</td>
                 <td style={tableCellStyle}>{ranking["Diff. First"]}</td>
                 <td style={tableCellStyle}>{ranking.Uploaded}</td>
